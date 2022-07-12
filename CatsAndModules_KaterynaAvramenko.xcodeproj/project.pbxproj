@@ -7,36 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DA4E178EAB324824405C748 /* Pods_CatsAndModules_KaterynaAvramenko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F2F69B0B6F6419AAE0605A /* Pods_CatsAndModules_KaterynaAvramenko.framework */; };
+		593B3C99287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B3C98287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests.swift */; };
+		593B3C9B287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B3C9A287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITestsLaunchTests.swift */; };
+		593B3CA2287ADCC000308802 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B3CA1287ADCC000308802 /* SnapshotHelper.swift */; };
+		59521D242867374A00F401F7 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59521D232867374A00F401F7 /* Networking.framework */; };
+		59521D252867374A00F401F7 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 59521D232867374A00F401F7 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		59A58E382868BAA70035C1F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59A58E372868BAA70035C1F5 /* GoogleService-Info.plist */; };
 		59C4D83E286730D9003F79EE /* CatsAndModules_KaterynaAvramenkoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C4D83D286730D9003F79EE /* CatsAndModules_KaterynaAvramenkoApp.swift */; };
 		59C4D840286730D9003F79EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C4D83F286730D9003F79EE /* ContentView.swift */; };
 		59C4D842286730DE003F79EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C4D841286730DE003F79EE /* Assets.xcassets */; };
 		59C4D845286730DE003F79EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C4D844286730DE003F79EE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		593B3C9C287ADB5F00308802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59C4D832286730D8003F79EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59C4D839286730D9003F79EE;
+			remoteInfo = CatsAndModules_KaterynaAvramenko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		59521D262867374A00F401F7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				59521D252867374A00F401F7 /* Networking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		11ECA25A059CB31A8AC113C4 /* Pods-CatsAndModules_KaterynaAvramenko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsAndModules_KaterynaAvramenko.release.xcconfig"; path = "Target Support Files/Pods-CatsAndModules_KaterynaAvramenko/Pods-CatsAndModules_KaterynaAvramenko.release.xcconfig"; sourceTree = "<group>"; };
+		593B3C96287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsAndModules_KaterynaAvramenkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		593B3C98287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_KaterynaAvramenkoUITests.swift; sourceTree = "<group>"; };
+		593B3C9A287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_KaterynaAvramenkoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		593B3CA1287ADCC000308802 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		59521D232867374A00F401F7 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A58E372868BAA70035C1F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59B1BF02286CE2BB00687762 /* CatsAndModules-KaterynaAvramenko-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CatsAndModules-KaterynaAvramenko-Info.plist"; sourceTree = SOURCE_ROOT; };
 		59C4D83A286730D9003F79EE /* CatsAndModules_KaterynaAvramenko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsAndModules_KaterynaAvramenko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C4D83D286730D9003F79EE /* CatsAndModules_KaterynaAvramenkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAndModules_KaterynaAvramenkoApp.swift; sourceTree = "<group>"; };
 		59C4D83F286730D9003F79EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59C4D841286730DE003F79EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59C4D844286730DE003F79EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59E108CC75405A8221EB4778 /* Pods-CatsAndModules_KaterynaAvramenko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatsAndModules_KaterynaAvramenko.debug.xcconfig"; path = "Target Support Files/Pods-CatsAndModules_KaterynaAvramenko/Pods-CatsAndModules_KaterynaAvramenko.debug.xcconfig"; sourceTree = "<group>"; };
+		C1F2F69B0B6F6419AAE0605A /* Pods_CatsAndModules_KaterynaAvramenko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatsAndModules_KaterynaAvramenko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59C4D837286730D9003F79EE /* Frameworks */ = {
+		593B3C93287ADB5F00308802 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		59C4D837286730D9003F79EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59521D242867374A00F401F7 /* Networking.framework in Frameworks */,
+				1DA4E178EAB324824405C748 /* Pods_CatsAndModules_KaterynaAvramenko.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10AE07D917AB5902B3DC600F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59E108CC75405A8221EB4778 /* Pods-CatsAndModules_KaterynaAvramenko.debug.xcconfig */,
+				11ECA25A059CB31A8AC113C4 /* Pods-CatsAndModules_KaterynaAvramenko.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		593B3C97287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				593B3CA1287ADCC000308802 /* SnapshotHelper.swift */,
+				593B3C98287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests.swift */,
+				593B3C9A287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITestsLaunchTests.swift */,
+			);
+			path = CatsAndModules_KaterynaAvramenkoUITests;
+			sourceTree = "<group>";
+		};
 		59C4D831286730D8003F79EE = {
 			isa = PBXGroup;
 			children = (
 				59C4D83C286730D9003F79EE /* CatsAndModules_KaterynaAvramenko */,
+				593B3C97287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests */,
 				59C4D83B286730D9003F79EE /* Products */,
+				10AE07D917AB5902B3DC600F /* Pods */,
+				E2A0475FF9B9EA3EF45970F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				59C4D83A286730D9003F79EE /* CatsAndModules_KaterynaAvramenko.app */,
+				593B3C96287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +124,8 @@
 		59C4D83C286730D9003F79EE /* CatsAndModules_KaterynaAvramenko */ = {
 			isa = PBXGroup;
 			children = (
+				59B1BF02286CE2BB00687762 /* CatsAndModules-KaterynaAvramenko-Info.plist */,
+				59A58E372868BAA70035C1F5 /* GoogleService-Info.plist */,
 				59C4D83D286730D9003F79EE /* CatsAndModules_KaterynaAvramenkoApp.swift */,
 				59C4D83F286730D9003F79EE /* ContentView.swift */,
 				59C4D841286730DE003F79EE /* Assets.xcassets */,
@@ -67,22 +142,55 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E2A0475FF9B9EA3EF45970F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59521D232867374A00F401F7 /* Networking.framework */,
+				C1F2F69B0B6F6419AAE0605A /* Pods_CatsAndModules_KaterynaAvramenko.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		593B3C95287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593B3CA0287ADB5F00308802 /* Build configuration list for PBXNativeTarget "CatsAndModules_KaterynaAvramenkoUITests" */;
+			buildPhases = (
+				593B3C92287ADB5F00308802 /* Sources */,
+				593B3C93287ADB5F00308802 /* Frameworks */,
+				593B3C94287ADB5F00308802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593B3C9D287ADB5F00308802 /* PBXTargetDependency */,
+			);
+			name = CatsAndModules_KaterynaAvramenkoUITests;
+			productName = CatsAndModules_KaterynaAvramenkoUITests;
+			productReference = 593B3C96287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		59C4D839286730D9003F79EE /* CatsAndModules_KaterynaAvramenko */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59C4D848286730DE003F79EE /* Build configuration list for PBXNativeTarget "CatsAndModules_KaterynaAvramenko" */;
 			buildPhases = (
+				11D01DED688A6C1E702E5E85 /* [CP] Check Pods Manifest.lock */,
 				59C4D836286730D9003F79EE /* Sources */,
 				59C4D837286730D9003F79EE /* Frameworks */,
 				59C4D838286730D9003F79EE /* Resources */,
+				BA9F8A260B81C5F34C9311F8 /* [CP] Embed Pods Frameworks */,
+				59521D262867374A00F401F7 /* Embed Frameworks */,
+				59A44EE928707F5E00648B71 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CatsAndModules_KaterynaAvramenko;
+			packageProductDependencies = (
+			);
 			productName = CatsAndModules_KaterynaAvramenko;
 			productReference = 59C4D83A286730D9003F79EE /* CatsAndModules_KaterynaAvramenko.app */;
 			productType = "com.apple.product-type.application";
@@ -97,6 +205,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					593B3C95287ADB5F00308802 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 59C4D839286730D9003F79EE;
+					};
 					59C4D839286730D9003F79EE = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -111,28 +223,110 @@
 				Base,
 			);
 			mainGroup = 59C4D831286730D8003F79EE;
+			packageReferences = (
+			);
 			productRefGroup = 59C4D83B286730D9003F79EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				59C4D839286730D9003F79EE /* CatsAndModules_KaterynaAvramenko */,
+				593B3C95287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		593B3C94287ADB5F00308802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59C4D838286730D9003F79EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				59C4D845286730DE003F79EE /* Preview Assets.xcassets in Resources */,
 				59C4D842286730DE003F79EE /* Assets.xcassets in Resources */,
+				59A58E382868BAA70035C1F5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11D01DED688A6C1E702E5E85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatsAndModules_KaterynaAvramenko-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A44EE928707F5E00648B71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\n";
+		};
+		BA9F8A260B81C5F34C9311F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatsAndModules_KaterynaAvramenko/Pods-CatsAndModules_KaterynaAvramenko-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatsAndModules_KaterynaAvramenko/Pods-CatsAndModules_KaterynaAvramenko-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatsAndModules_KaterynaAvramenko/Pods-CatsAndModules_KaterynaAvramenko-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		593B3C92287ADB5F00308802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B3C99287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITests.swift in Sources */,
+				593B3C9B287ADB5F00308802 /* CatsAndModules_KaterynaAvramenkoUITestsLaunchTests.swift in Sources */,
+				593B3CA2287ADCC000308802 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59C4D836286730D9003F79EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,7 +338,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		593B3C9D287ADB5F00308802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59C4D839286730D9003F79EE /* CatsAndModules_KaterynaAvramenko */;
+			targetProxy = 593B3C9C287ADB5F00308802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		593B3C9E287ADB5F00308802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.avramenko.CatsAndModules-KaterynaAvramenkoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsAndModules_KaterynaAvramenko;
+			};
+			name = Debug;
+		};
+		593B3C9F287ADB5F00308802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VNU8KKW4GG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.avramenko.CatsAndModules-KaterynaAvramenkoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsAndModules_KaterynaAvramenko;
+			};
+			name = Release;
+		};
 		59C4D846286730DE003F79EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -263,15 +499,19 @@
 		};
 		59C4D849286730DE003F79EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E108CC75405A8221EB4778 /* Pods-CatsAndModules_KaterynaAvramenko.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"CatsAndModules_KaterynaAvramenko/Preview Content\"";
 				DEVELOPMENT_TEAM = VNU8KKW4GG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CatsAndModules-KaterynaAvramenko-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +524,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.avramenko.CatsAndModules-KaterynaAvramenko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,15 +533,19 @@
 		};
 		59C4D84A286730DE003F79EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11ECA25A059CB31A8AC113C4 /* Pods-CatsAndModules_KaterynaAvramenko.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"CatsAndModules_KaterynaAvramenko/Preview Content\"";
 				DEVELOPMENT_TEAM = VNU8KKW4GG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CatsAndModules-KaterynaAvramenko-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +558,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.avramenko.CatsAndModules-KaterynaAvramenko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "UKMA Edu Shared Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,6 +568,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		593B3CA0287ADB5F00308802 /* Build configuration list for PBXNativeTarget "CatsAndModules_KaterynaAvramenkoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593B3C9E287ADB5F00308802 /* Debug */,
+				593B3C9F287ADB5F00308802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		59C4D835286730D8003F79EE /* Build configuration list for PBXProject "CatsAndModules_KaterynaAvramenko" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
