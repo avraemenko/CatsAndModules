@@ -16,7 +16,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     return true
   }
 }
-//
+
 @main
 struct CatsAndModules_KaterynaAvramenkoApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
