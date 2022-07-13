@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D430A820FD5D0C1CBEF1097 /* Pods_Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C7F5621C3C62CB12B1E0CF /* Pods_Networking.framework */; };
 		595065B228674509000B9D66 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595065B128674509000B9D66 /* DataFetcher.swift */; };
 		59521D1B2867364B00F401F7 /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 59521D1A2867364B00F401F7 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59521D222867368200F401F7 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59521D212867368200F401F7 /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34008819662B596E13D2A44F /* Pods-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.debug.xcconfig"; path = "Target Support Files/Pods-Networking/Pods-Networking.debug.xcconfig"; sourceTree = "<group>"; };
+		48C7F5621C3C62CB12B1E0CF /* Pods_Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		595065B128674509000B9D66 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		59521D172867364B00F401F7 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59521D1A2867364B00F401F7 /* Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
 		59521D212867368200F401F7 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		A4F8C827CC30EA850DF0240E /* Pods-Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.release.xcconfig"; path = "Target Support Files/Pods-Networking/Pods-Networking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,17 +28,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D430A820FD5D0C1CBEF1097 /* Pods_Networking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A0B23E7155E3C7E8C5638B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34008819662B596E13D2A44F /* Pods-Networking.debug.xcconfig */,
+				A4F8C827CC30EA850DF0240E /* Pods-Networking.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		1CFE526BFCFBC14F0C193648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48C7F5621C3C62CB12B1E0CF /* Pods_Networking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		59521D0D2867364B00F401F7 = {
 			isa = PBXGroup;
 			children = (
 				59521D192867364B00F401F7 /* Networking */,
 				59521D182867364B00F401F7 /* Products */,
+				1A0B23E7155E3C7E8C5638B1 /* Pods */,
+				1CFE526BFCFBC14F0C193648 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59521D1E2867364B00F401F7 /* Build configuration list for PBXNativeTarget "Networking" */;
 			buildPhases = (
+				082EE18CED70A625F131AEFC /* [CP] Check Pods Manifest.lock */,
 				59521D122867364B00F401F7 /* Headers */,
 				59521D132867364B00F401F7 /* Sources */,
 				59521D142867364B00F401F7 /* Frameworks */,
@@ -84,8 +110,6 @@
 			dependencies = (
 			);
 			name = Networking;
-			packageProductDependencies = (
-			);
 			productName = Networking;
 			productReference = 59521D172867364B00F401F7 /* Networking.framework */;
 			productType = "com.apple.product-type.framework";
@@ -114,8 +138,6 @@
 				Base,
 			);
 			mainGroup = 59521D0D2867364B00F401F7;
-			packageReferences = (
-			);
 			productRefGroup = 59521D182867364B00F401F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,6 +156,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082EE18CED70A625F131AEFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Networking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59521D132867364B00F401F7 /* Sources */ = {
@@ -272,6 +319,7 @@
 		};
 		59521D1F2867364B00F401F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34008819662B596E13D2A44F /* Pods-Networking.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -306,6 +354,7 @@
 		};
 		59521D202867364B00F401F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F8C827CC30EA850DF0240E /* Pods-Networking.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";

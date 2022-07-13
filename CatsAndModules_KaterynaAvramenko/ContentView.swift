@@ -11,6 +11,7 @@ import SDWebImageSwiftUI
 import FirebasePerformance
 import FirebaseCrashlytics
 
+//
 struct ContentView: View {
     
     let trace = Performance.startTrace(name: "trace-of-the-fetch")
